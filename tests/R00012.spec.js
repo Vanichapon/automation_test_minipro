@@ -5,8 +5,8 @@ test('R00012 สมัครทีมไม่ได้เมื่อ Username 
         
 await page.goto('https://computer.surin.rmuti.ac.th/certificate/project/register_user.php');
 
-    await page.fill('#username', 'TestTeam01');
-    await page.fill('#email', 'test@domain.com');
+    await page.fill('#username', 'TestTeam02');
+    await page.fill('#email', 'test2@domain.com');
     await page.fill('#password', 'Test@123456');
     await page.fill('#confirm_password', 'Test@123456');
 
